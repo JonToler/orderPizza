@@ -1,5 +1,5 @@
 # Order-Pizza
-https://jontoler.github.io/Ping-Pong/
+https://jontoler.github.io/orderPizza/
 #### _A web page which gives back a response on a Ping Pong serve_
 
 #### By _**Jon Toler**_
@@ -18,6 +18,7 @@ https://jontoler.github.io/Ping-Pong/
 
 ## Known Bugs
 _NA_
+_isn't working with prototypes yet_
 
 ## Support and contact details
 * _tolerjonathan@gmail.com_
