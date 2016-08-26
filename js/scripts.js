@@ -35,13 +35,22 @@ pizzaOrder.prototype.prices = function () {
       caseus += 1;
   }
   this.pizzaOrder.push(caseus);
-});
+}
 
 //UI Logic
 $(document).ready(function() {
   $("form#pizzaOrderForm").submit(function(event){
     event.preventDefault();
     var pizzaSizeIn = $("#pizzaSize").val();
+    var totalToppingsIn = $('#toppings :checkbox:checked').map(function(){
+      return parseInt(this.value);
+    }).get().reduce(function(addTop, addAnother) {
+      return addTop + addAnother;
+    }, 0);
+
+      alert(totalToppingsIn);
+
+
 
     myPizzaOrder = new pizzaOrder(pizzaSizeIn);
     $("#YourOrder").text("Please confirm your order:" + "$" + myPizzaOrder);
