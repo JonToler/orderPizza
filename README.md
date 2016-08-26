@@ -6,7 +6,7 @@ https://jontoler.github.io/Ping-Pong/
 
 ## Behaviors
 ##### Ping-Pong
-* _Allow the user to choose toppings and size for the pizza they'd like to order._
+* _Allow the user to choose toppings and size for the pizza they'd like to order. ex: selecting a small 13" small will return a base price of $10._
 
 
 
