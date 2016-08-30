@@ -8,6 +8,16 @@ pizza.prototype.totalPrice = function() {
   return this.size + (3 * this.toppings.length);
 };
 
+var sizeToSize = function(pizzaSizeIn){
+  if (pizzaSizeIn === 13){
+    return "small";
+  }else if (pizzaSizeIn === 18){
+    return "medium";
+  }else {
+    return "large";
+  }
+}
+
 
 
 //UI Logic
