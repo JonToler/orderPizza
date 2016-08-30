@@ -6,7 +6,9 @@ https://jontoler.github.io/orderPizza/
 
 ## Behaviors
 ##### Order-Pizza
-* _Allow the user to choose toppings and size for the pizza they'd like to order. ex: selecting a small 13" small will return a base price of $10._
+* _Allows the user to choose the size for the pizza they'd like to order. ex: selecting a small 13" small will return a base price of $13._
+ * _Allows the user to choose toppings and size for the pizza they'd like to order. Ex: selecting a small pizza and 1 topping will return a pizza, which costs $14.30_
+ * _Allows the user to order multiple pizzas of different types with different toppings. EX: User orders a small, med, and Large each with 3 toppings will list pizza's with topping list, and output the total of $59.40
 
 
 
