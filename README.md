@@ -20,7 +20,7 @@ https://jontoler.github.io/orderPizza/
 
 ## Known Bugs
 _NA_
-_isn't working with prototypes yet_
+_Cash value returns values with decimal places larger than 2 sometimes_
 
 ## Support and contact details
 * _tolerjonathan@gmail.com_
